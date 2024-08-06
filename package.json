@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./api_key_auth/server.ts"
+    "start": "nodemon ./todo-api/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -40,6 +40,8 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
-    "mongoose": "^7.4.2"
+    "mongoose": "^7.4.2",
+    "mysql2": "^3.11.0",
+    "tough-cookie": "^4.1.4"
   }
 }
